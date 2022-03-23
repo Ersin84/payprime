@@ -1,0 +1,32 @@
+{
+  "name": "@payprime/contracts",
+  "description": "Secure Smart Contract library for Solidity",
+  "version": "4.1.0",
+  "files": [
+    "**/*.sol",
+    "/build/contracts/*.json",
+    "!/mocks/**/*"
+  ],
+  "scripts": {
+    "prepare": "bash ../scripts/prepare-contracts-package.sh",
+    "prepare-docs": "cd ..; npm run prepare-docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenPrime/payprime-contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "prime"
+  ],
+  "author": "OpenPrime Community <maintainers@payprime.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenPrime/payprime-contracts/issues"
+  },
+  "homepage": "https://payprime.com/contracts/"
+}

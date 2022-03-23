@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "github>OpenPrime/code-style"
+  ],
+  "packageRules": [
+    {
+      "extends": ["packages:eslint"],
+      "enabled": false
+    }
+  ]
+}
